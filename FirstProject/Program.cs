@@ -18,7 +18,7 @@ Console.WriteLine($"cost: {cost}");
 decimal tax = cost * (6m / 100m);
 Console.WriteLine($"Tax: {tax}");
 
-Console.WriteLine("=======================================");
+Console.WriteLine("==========================================");
 
 decimal total = cost + tax;
 Console.WriteLine($"Total  estimate: {total}");
